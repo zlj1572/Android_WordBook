@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView android:text="Word"
+            android:gravity="center"/>
+
+        <EditText
+            android:ems="15"
+            android:id="@+id/txtWord"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Interpretation" />
+
+        <EditText
+            android:ems="15"
+            android:id="@+id/txtMeaning"
+            android:layout_width="match_parent" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="Sample"
+            android:gravity="center"/>
+
+        <EditText
+            android:ems="15"
+            android:id="@+id/txtSample"
+            android:layout_width="match_parent" />
+    </TableRow>
+</TableLayout>
+
