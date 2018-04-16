@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    tools:context="com.example.babyyang.mywordapp.WordDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详细释义:"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/accent_material_light"
+            android:id="@+id/word"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordmeaning"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/word"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordsample"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/wordmeaning"
+            />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

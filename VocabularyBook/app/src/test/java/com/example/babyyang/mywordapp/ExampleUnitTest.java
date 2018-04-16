@@ -1,4 +1,4 @@
-package com.example.administrator.vocabularybook;
+package com.example.babyyang.mywordapp;
 
 import org.junit.Test;
 
